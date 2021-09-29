@@ -20,6 +20,7 @@ namespace MainRoom
     public string Testimony { get; set; }
     public string Testimony2 { get; set; }
     public string Testimony3 { get; set; }
+    public string Testimony4 { get; set; }
     }
 }
 

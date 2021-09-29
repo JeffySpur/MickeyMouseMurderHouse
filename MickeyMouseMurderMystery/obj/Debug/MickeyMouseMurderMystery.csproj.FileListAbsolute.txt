@@ -1,0 +1,10 @@
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\MickeyMouseMurderMystery.exe.config
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\MickeyMouseMurderMystery.exe
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\MickeyMouseMurderMystery.pdb
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\MainRoom.dll
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\MainRoom.pdb
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.csproj.AssemblyReference.cache
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.csproj.CoreCompileInputs.cache
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.csproj.CopyComplete
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.exe
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.pdb

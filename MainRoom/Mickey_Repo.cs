@@ -20,7 +20,7 @@ namespace MainRoom
             return wasAdded;
         }
 
-        //Read Dialog from each seeded character? 
+        //Read Dialog from each seeded character?  
         public CharacterTemplate GetCharacterByName(string characterWanted)
         {
             foreach (CharacterTemplate character in _CharacterList)
@@ -33,10 +33,10 @@ namespace MainRoom
 
 
         //Accusing a murderer
-        public void AccusationFly()
+        public void AccusationsFly()
         {
             string murderer = "donald";
-            string accusation;
+            string accusation = "";
             int guessCount = 0;
             bool outOfAccusations = false;
 

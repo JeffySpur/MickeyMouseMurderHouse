@@ -1,0 +1,6 @@
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\bin\Debug\MainRoom.dll
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\bin\Debug\MainRoom.pdb
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.csproj.AssemblyReference.cache
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.csproj.CoreCompileInputs.cache
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.dll
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.pdb

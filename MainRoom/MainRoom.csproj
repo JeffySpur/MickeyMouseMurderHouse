@@ -42,8 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CharacterTemplate.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="MurderhouseUI.cs" />
+    <Compile Include="Mickey_Repo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

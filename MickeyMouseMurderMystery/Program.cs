@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MainRoom;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace MickeyMouseMurderMystery
     {
         static void Main(string[] args)
         {
+            MurderhouseUI ui = new MurderhouseUI();
+            ui.Run();
         }
     }
 }
