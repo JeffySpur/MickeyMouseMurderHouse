@@ -25,66 +25,11 @@ namespace MainRoom
             bool isPlaying = true;
             while (isPlaying)
             {
-                //finish
-                //FirstChoiceMenu()
-                //start
-                bool activelyInterrogating = true;
-                while (activelyInterrogating)
-                {
-                    Console.Clear();
-                    Console.WriteLine
-                        (
-                        "Who would you like to interrogate? \n\n" +
-                        "1. Daisy\n" +
-                        "2. Donald\n" +
-                        "3. Mickey\n" +
-                        "4. Minnie\n" +
-                        "5. Pete\n\n" +
-                        "Or are you ready to make an accusation?\n Be careful, 3 false accusations, and the crime will be pinned on you!\n\n" +
-                        "6. Yes!  J'accuse!\n \n \n" +
-                        "7. I'm no detective!  Get me outta here!"
-                        );
 
-                    string userPrimaryInput = Console.ReadLine();
+                isPlaying = FirstChoiceMenu();
 
-                    switch (userPrimaryInput)
-                    {
-                        case "1":
-                            ShowDaisy();
-                            break;
-                        case "2":
-                            ShowDonald();
-                            break;
-                        case "3":
-                            ShowMickey();
-                            break;
-                        case "4":
-                            ShowMinnie();
-                            break;
-                        case "5":
-                            ShowPete();
-                            break;
-                        case "6":
-                            activelyInterrogating = false;
-                            AccusationsFly();
-                            break;
-                        case "7":
-                            isPlaying = false;
-                            break;
-                        default:
-                            Console.WriteLine("Hey idiot.  Pick a number.  You don't wanna die next!");
-                            Console.ReadKey();
-                            break;
-                    }
-                }
-                //finish
             }
 
-        }
-        public void FirstChoiceMenu()
-        {
-            //start
-            //finish
         }
         public void StartSetUp()
         {
@@ -177,6 +122,61 @@ namespace MainRoom
             Console.ReadLine();
 
 
+        }
+        public bool FirstChoiceMenu()
+
+        {
+            bool activelyInterrogating = true;
+            while (activelyInterrogating)
+            {
+                Console.Clear();
+                Console.WriteLine
+                    (
+                    "Who would you like to interrogate? \n\n" +
+                    "1. Daisy\n" +
+                    "2. Donald\n" +
+                    "3. Mickey\n" +
+                    "4. Minnie\n" +
+                    "5. Pete\n\n" +
+                    "Or are you ready to make an accusation?\n Be careful, 3 false accusations, and the crime will be pinned on you!\n\n" +
+                    "6. Yes!  J'accuse!\n \n \n" +
+                    "7. I'm no detective!  Get me outta here!"
+                    );
+
+                string userPrimaryInput = Console.ReadLine();
+
+                switch (userPrimaryInput)
+                {
+                    case "1":
+                        ShowDaisy();
+                        break;
+                    case "2":
+                        ShowDonald();
+                        break;
+                    case "3":
+                        ShowMickey();
+                        break;
+                    case "4":
+                        ShowMinnie();
+                        break;
+                    case "5":
+                        ShowPete();
+                        break;
+                    case "6":
+                        activelyInterrogating = false;
+                        AccusationsFly();
+                        break;
+                    case "7":
+                        return false;
+                    default:
+                       
+                        Console.WriteLine("Hey idiot.  Pick a number.  You don't wanna die next!");
+                        Console.ReadKey();
+                        break;
+
+                }
+            }
+            return true;
         }
 
         private void ShowDaisy()
