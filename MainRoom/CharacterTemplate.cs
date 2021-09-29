@@ -9,17 +9,18 @@ namespace MainRoom
     public class CharacterTemplate
     {
         public CharacterTemplate() { }
-        public CharacterTemplate(string name, int age, string role)
+        public CharacterTemplate(string name, string role)
         {
             Name = name;
-            Age = age;
             Role = role;
         }
        
     public string Name { get; set; }
-    public int Age { get; set; }
     public string Role { get; set; }
+    public string Testimony { get; set; }
+    public string Testimony2 { get; set; }
+    public string Testimony3 { get; set; }
     }
-
-
 }
+
+
