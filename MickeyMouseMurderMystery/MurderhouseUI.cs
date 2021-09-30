@@ -21,6 +21,7 @@ namespace MainRoom
 
         private void RunMenu()
         {
+            Console.Title = "Mickey Mouse Murder House";
             StartSetUp();
             bool isPlaying = true;
             while (isPlaying)
@@ -78,7 +79,8 @@ namespace MainRoom
             Thread.Sleep(2000);
             Console.WriteLine("He reaches down for one of the delicious looking bacon wrapped shrimp. He bites into it.\n");
             Thread.Sleep(2000);
-
+            Console.ReadLine();
+            Console.Clear();
             Console.WriteLine("right at that moment….\n");
             Thread.Sleep(2000);
             Console.Clear();
@@ -89,6 +91,9 @@ namespace MainRoom
             Console.WriteLine("As Pete begins to serve the main course the lights suddenly go out!\n");
             Thread.Sleep(2000);
             Console.ReadLine();
+
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
 
             Console.WriteLine("A CRASH!!!");
@@ -97,6 +102,9 @@ namespace MainRoom
 
             Console.WriteLine("A SCREAM!!!");
             Thread.Sleep(2000);
+
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Clear();
 
             Console.WriteLine("The lights flip back on in Goofy is laying dead in the floor!!!\n");
@@ -129,6 +137,9 @@ namespace MainRoom
             bool activelyInterrogating = true;
             while (activelyInterrogating)
             {
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Red;
+
                 Console.Clear();
                 Console.WriteLine
                     (
@@ -184,7 +195,8 @@ namespace MainRoom
             bool daisyInterrogation = true;
             while (daisyInterrogation)
             {
-
+                Console.BackgroundColor = ConsoleColor.Magenta;
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.Clear();
                 Console.WriteLine("What to ask Daisy?\n" +
                    "1. Where were you when the lights went out?\n" +
@@ -229,7 +241,8 @@ namespace MainRoom
             bool donaldInterrogation = true;
             while (donaldInterrogation)
             {
-
+                Console.BackgroundColor = ConsoleColor.Blue;
+                Console.ForegroundColor = ConsoleColor.Yellow;
 
                 Console.Clear();
                 Console.WriteLine("What to ask Donald?\n" +
@@ -274,6 +287,8 @@ namespace MainRoom
             bool mickeyInterrogation = true;
             while (mickeyInterrogation)
             {
+                Console.BackgroundColor = ConsoleColor.DarkYellow;
+                Console.ForegroundColor = ConsoleColor.Red;
 
                 Console.Clear();
                 Console.WriteLine("What to ask Mickey?\n" +
@@ -319,6 +334,9 @@ namespace MainRoom
             bool minnieInterrogation = true;
             while (minnieInterrogation)
             {
+                Console.BackgroundColor = ConsoleColor.Magenta;
+                Console.ForegroundColor = ConsoleColor.White;
+
                 Console.Clear();
                 Console.WriteLine("What to ask Minnie?\n" +
                    "1. Where were you when the lights went out?\n" +
@@ -362,6 +380,8 @@ namespace MainRoom
             bool peteInterrogation = true;
             while (peteInterrogation)
             {
+                Console.BackgroundColor = ConsoleColor.DarkBlue;
+                Console.ForegroundColor = ConsoleColor.Red;
 
                 Console.Clear();
                 Console.WriteLine("What to ask Pete?\n" +
@@ -422,21 +442,58 @@ namespace MainRoom
             {
                 if (guessCount <= 2)
                 {
+                    Console.Clear();
                     Console.WriteLine("Who do you accuse?");
                     accusation = Console.ReadLine().ToLower();
                     guessCount++;
+                    Console.Clear();
                 }
-                else
+                else 
                 {
                     outOfAccusations = true;
+                    
                 }
-                if (outOfAccusations)
-                {
-                    Console.WriteLine("You have made too many false accusations!");
-                }
+
             }
+            
+            if (outOfAccusations)
+            {
+
+                Console.WriteLine("Murmurs from the crowd are all you can hear at first.");
+                Thread.Sleep(1000);
+
+                Console.WriteLine("You hear Donald’s raspy voice from the crowd who even is that guy ?");
+                Thread.Sleep(1000);
+                Console.ReadKey();
+
+                Console.WriteLine("To your dismay you hear Minnie agree yeah who even invited them ?");
+                Thread.Sleep(1000);
 
 
+                Console.WriteLine("You hear daisy chime In yeah I think he did it.");
+                Thread.Sleep(1000);
+                Console.ReadKey();
+                Console.Clear();
+
+                Console.WriteLine("Unfortunately for you the rest of the guests are growing suspicious.Wow you were interrogating the other suspects one of them called the local the police department.And now like mini before you based on false accusations you’ll be carted off to jail by the long arm of the law!!");
+                Thread.Sleep(10000);
+                Console.ReadKey();
+            }
+            else  
+            {
+                Console.WriteLine("Oh so you have figured it out your the ultimate detective / genius!");
+
+                Console.WriteLine("you hear very excited roars from the crowd Mickey pipes up oh boy how did you figure it out huh - huh.");
+
+                Console.WriteLine("Welll Mickey allow me to explain. Last week when the guys played golf goofy won. Leaving Mickey Donald and Pete in debt a larger sum of debt, however Donald and Mickey owed him the most. Pete was in the kitchen all day long and his only guest in that time was Donald. So how did Goofy die you ask? He was poisoned earlier today when Donald came to help Pete cook the bacon wrapped shrimp. He purposely poisoned Goofy‘s plate and later that night when Donald saw Goofy bite into his appetizer prematurely he leaned over to turn out the lights. While simultaneously turning out goofy‘s. That’s also why when Daisy tried to jump onto him when the lights went out he was leaning and unstable and they both crashed to the ground. He was leaning because he was reaching for the light. That’s also why when Daisy tried to jump onto him they crashed to the ground you guys heard a crash. That’s why there was no sign of struggle. That’s why there was no blood. Goofy was poisoned by a BACON WRAPPED SHRIMP over a debt in a golf game by Donald Fauntleroy Duck and that there is the case of….");
+
+                Console.WriteLine("…the bad bill….");
+
+                Console.WriteLine("You slide on your cool detective glasses and the wind blows through your hair because you have solved the case the camera zooms out because you are so awesome!");
+
+                Console.WriteLine("Congratulations you have successfully solved the Mickey Mouse murder house! Thank you for playing!");
+                Console.ReadLine();
+            }
 
 
         }
