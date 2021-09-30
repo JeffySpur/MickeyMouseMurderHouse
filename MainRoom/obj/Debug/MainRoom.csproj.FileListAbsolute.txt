@@ -4,3 +4,6 @@ C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\
 C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.csproj.CoreCompileInputs.cache
 C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.dll
 C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.pdb
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\bin\Debug\Figgle.dll
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\bin\Debug\Figgle.xml
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MainRoom\obj\Debug\MainRoom.csproj.CopyComplete

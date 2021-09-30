@@ -8,3 +8,5 @@ C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMy
 C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.csproj.CopyComplete
 C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.exe
 C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\obj\Debug\MickeyMouseMurderMystery.pdb
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\Figgle.dll
+C:\Users\Krista Keller\source\repos\MickeyMouseMurderMystery\MickeyMouseMurderMystery\bin\Debug\Figgle.xml
